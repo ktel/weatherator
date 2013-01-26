@@ -24,20 +24,17 @@ define(function(require) {
     // List view
 
     var list = $('.list').get(0);
-    list.add({ title: 'Learn this template',
-               desc: 'This is a list-detail template. Learn more ' +
-                     'about it at its ' +
-                     '<a href="https://github.com/mozilla/mortar-list-detail">project page!</a>',
-               date: new Date() });
-    list.add({ title: 'Make things',
-               desc: 'Make this look like that',
-               date: new Date(12, 9, 5) });
-    for(var i=0; i<8; i++) {
-        list.add({ title: 'Move stuff',
-                   desc: 'Move this over there',
-                   date: new Date(12, 10, 1) });
-    }
+    list.add({ title: 'WUnderground',
+               desc:  '<div class="widget-list"><span style="margin: auto; display: block !important; width: 220px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="220" /></a></span></div>'});
 
+	list.add({ title: 'Meteo.gr',
+               desc:  '<div class="widget-list"><iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://meteo.gr/m/m-cf.cfm?city_id=12" style="width: 220px; height: 900px"></iframe></div>'});
+		
+	list.add({ title: 'Meteo.gr',
+               desc:  '<div class="widget-list"><span style="margin: auto; display: block !important; width: 220px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="220" /></a></span></div>'});
+	
+    
+    
     // Detail view
 
     var detail = $('.detail').get(0);
