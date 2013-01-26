@@ -28,7 +28,24 @@
 			TETEETE
 		</div>
 		<div class="widget-list">
-			<span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
+			<div style="width:220px; height:150px; margin: auto;">
+    			<object type="application/x-shockwave-flash" data="http://swf.yowindow.com/yowidget3.swf" width="220" height="150">
+    			<param name="movie" value="http://swf.yowindow.com/yowidget3.swf"/>
+    			<param name="allowfullscreen" value="true"/>
+    			<param name="wmode" value="opaque"/>
+    			<param name="bgcolor" value="#FFFFFF"/>
+    			<param name="flashvars" 
+    			value="location_id=gn:260891&amp;location_name=Karpen%C3%					ADsion&amp;time_format=12&amp;unit_system=us&amp;lang=el&amp;background=#FFFFFF&amp;copyright_bar=false"
+    />
+        		<a href="http://getweatherwidget.com?client=widget&amp;link=copyright"
+        		style="width:220px;height:150px;display: block;text-indent: -50000px;font-size: 0px;background:#DDF url(http://yowindow.com/img/logo.png) no-repeat scroll 50% 50%;"
+        >Καιρικό Widget</a>
+    </object>
+</div>
+<div style="width: 220px; height: 15px; font-size: 14px; font-family: Arial,Helvetica,sans-serif;margin: auto;">
+	<span style="float:left;"><a target="_top" href="http://getweatherwidget.com?client=widget&amp;link=copyright" style="color: #2fa900; font-weight:bold; text-decoration:none;" title="Καιρικό Widget">YoWindow.com</a></span>
+	<span style="float:right; color:#888888;"><a href="http://yr.no" style="color: #2fa900; text-decoration:none;">yr.no</a></span>
+</div>
 
 		</div>
 		<div class="widget-list">
