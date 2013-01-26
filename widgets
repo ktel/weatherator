@@ -1,0 +1,20 @@
+#Widget_Number = 1
+#Widget_URL =
+<span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
+#Widget_Number = 2
+#Widget_URL =
+<div style="font: 10px Tahoma;padding:3px;"><a style="color:#000000;text-decoration:none" href="http://freemeteo.com" >Weather by Freemeteo.com</a></div>
+<script>
+//Live weather feeds by freemeteo.com
+//The use of this script is bound by Freemeteo’s Live Feed Service Agreement, as is published in the following url: http://www.freemeteo.com/default.asp?pid=178&la=1
+// You are not allowed to change or delete any part of this script.
+// Main body background color : FFFFFF
+// Main body fonts color : 000000
+// Header/Footer background color : 6699FF
+// Header/Footer fonts color : FFFFFF
+cIfrm="2";
+gid="572200_20130126_170811";
+</script>
+<script src="http://www.freemeteo.com/templates/default/HTfeeds.js" type="text/javascript"></script>  
+
+
