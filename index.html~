@@ -27,9 +27,26 @@
 		<span style="margin: auto; display: block !important; width: 220px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="220" /></a></span>
 		</div>
 		<div class="widget-list">
-			 FUCK U
+			 <div style="margin: auto; font: 10px Tahoma;padding:3px;"><a style="color:#000000;text-decoration:none" href="http://freemeteo.com" >Weather by Freemeteo.com</a></div>
+<script>
+//Live weather feeds by freemeteo.com
+//The use of this script is bound by Freemeteo’s Live Feed Service Agreement, as is published in the following url: http://www.freemeteo.com/default.asp?pid=178&la=1
+// You are not allowed to change or delete any part of this script.
+// Main body background color : FFFFFF
+// Main body fonts color : 000000
+// Header/Footer background color : 6699FF
+// Header/Footer fonts color : FFFFFF
+cIfrm="2";
+gid="572200_20130126_170811";
+</script>
+<script src="http://www.freemeteo.com/templates/default/HTfeeds.js" type="text/javascript"></script>
+
 		</div>
 		<div class="widget-list">
+		<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://www.weather.gr/gr/gr/widgets/weather_w2.aspx?p=3" style="width: 120px; height: 410px"></iframe>
+		</div>
+		<div class="widget-list">
+		<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://meteo.gr/m/m-cf.cfm?city_id=12" style="width: 220px;"></iframe>
 		</div>	
 	</div>
     </x-listview>

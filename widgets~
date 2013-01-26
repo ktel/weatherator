@@ -1,9 +1,9 @@
-#Widget_Number = 1
-#Widget_URL =
-<span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
-#Widget_Number = 2
-#Widget_URL =
-<div style="font: 10px Tahoma;padding:3px;"><a style="color:#000000;text-decoration:none" href="http://freemeteo.com" >Weather by Freemeteo.com</a></div>
+#WIDGET START#
+<span style="margin: auto; display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Makrakomi, Greece Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_metric_cond&airportcode=LGBL&ForcedCity=Makrakomi&ForcedState=Greece&wmo=16675&language=EN" alt="Find more about Weather in Makrakomi, GR" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:00000.11.16675&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank">Click for weather forecast</a></span>
+#WIDGET STOP#
+
+#WIDGET START#
+<div style="margin: auto; font: 10px Tahoma;padding:3px;"><a style="color:#000000;text-decoration:none" href="http://freemeteo.com" >Weather by Freemeteo.com</a></div>
 <script>
 //Live weather feeds by freemeteo.com
 //The use of this script is bound by Freemeteo’s Live Feed Service Agreement, as is published in the following url: http://www.freemeteo.com/default.asp?pid=178&la=1
@@ -15,6 +15,13 @@
 cIfrm="2";
 gid="572200_20130126_170811";
 </script>
-<script src="http://www.freemeteo.com/templates/default/HTfeeds.js" type="text/javascript"></script>  
+<script src="http://www.freemeteo.com/templates/default/HTfeeds.js" type="text/javascript"></script>
+#WIDGET STOP#
 
+#WIDGET START#
+<div style="margin: auto; width: 475px; background-color:#FFFFFF;"><iframe style="overflow:hidden;border:none" allowtransparency="true" width="475" height="205" src="http://www.weather-forecast.com/locations/Athens/forecasts/latest/threedayfree" scrolling="no" frameborder="0" marginwidth="0" marginheight="0"></iframe> <div style="width: 475px; height: 50px"><p style="text-align: left; color: #669900; font-size: 12px;" id="cmt"><a href="http://www.weather-forecast.com/locations/Athens/forecasts/latest?utm_source=weather_feed&utm_medium=web&utm_campaign=weather_feed"><img height="37" width="130" border="0" alt="Weather Forecast" src="http://www.weather-forecast.com/images/weatherlogo_130.gif" style="float: left; width: 130px; height: 37px; margin: 0 5px 0 8px;"/></a><a style="color: #669900; text-decoration: underline;" href="http://www.weather-forecast.com/locations/Athens/forecasts/latest?utm_source=weather_feed&utm_medium=web&utm_campaign=weather_feed"><font face="Georgia">View Detailed 10 Day Weather Forecast for Athens, webcams, weather maps & more at Weather-Forecast.com</font></a></p></div></div></font></a></p></div></div>
+#WIDGET STOP#
 
+#WIDGET START#
+<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://www.weather.gr/gr/gr/widgets/weather_w2.aspx?p=3" style="width: 120px; height: 410px"></iframe><a target="blank" style="color: #999999; width: 120px; text-align: center; display: block; font: 10px/10px Arial,san-serif; text-decoration: none;" href="http://www.weather.gr">καιρός weather.gr</a>
+#WIDGET STOP#
