@@ -46,7 +46,7 @@ gid="572200_20130126_170811";
 		<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://www.weather.gr/gr/gr/widgets/weather_w2.aspx?p=3" style="width: 120px; height: 410px"></iframe>
 		</div>
 		<div class="widget-list">
-		<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://meteo.gr/m/m-cf.cfm?city_id=12" style="width: 220px;"></iframe>
+		<iframe scrolling="no" frameborder="0" allowtransparency="true" src="http://meteo.gr/m/m-cf.cfm?city_id=12" style="width: 220px; height: 600px"></iframe>
 		</div>	
 	</div>
     </x-listview>
@@ -64,8 +64,8 @@ gid="572200_20130126_170811";
 
     <x-view class="edit">
       <header><h1>Edit</h1></header>
-      <div class="field">Title: <input type="text" name="title" /></div>
-      <div class="field">Description: <input type="text" name="desc" /></div>
+      <div class="field">Site Name: <input type="text" name="title" /></div>
+      <div class="field">Widget Code: <input type="text" name="desc" /></div>
       <button type="submit" class="add">Add</button>
     </x-view>
 
